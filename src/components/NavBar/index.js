@@ -7,8 +7,8 @@ class NavBar extends Component{
     render(){
         return(
             <nav className="navbar navbar-expand navbar-light">
-            <div>
-              <ul className="navbar-nav">
+            <div class="container">
+              <ul className="navbar-nav mx-auto">
                 <li className="nav-item">
                   <NavLink exact to="/About" className="nav-link">
                     <a>About</a>

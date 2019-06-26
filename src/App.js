@@ -8,8 +8,8 @@ class App extends Component{
     return(
       <Router>
         <div>
-          <About />
           <Navbar />
+          <About />
         </div>
  
       </Router>
