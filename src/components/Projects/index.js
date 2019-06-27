@@ -1,10 +1,12 @@
-import React, {Comppnent} from 'react';
+import React, {Component} from 'react';
+import Card from '../Card';
 
-class Projects extends Comppnent{
+class Projects extends Component{
     render(){
         return(
-            <div>
-
+            <div class='container text-center'>
+                <h1>Projects</h1>
+                <Card />
             </div>
         )
     }
