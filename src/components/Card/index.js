@@ -3,15 +3,24 @@ import React, {Component} from 'react';
 
 class Card extends Component {
     render() {
+         
+        let iconStyle = {
+            fontSize : "3em",
+        }
+    
         return(
             <div class='row'>
-                <div class='col-sm-6'>
-                    <div class="card">
-                        <img class='card-img-top' src={this.props.imgPath}></img>
-                        <div class="card-body">
-                            <h5 class='card-title'>{this.props.projectName}</h5>
-                            <a href={this.props.herokuLink} class="fas fa-external-link-alt"></a>
-                            <a href={this.props.githubLink} class="fab fa-github"></a>
+                <div className='col-sm-6'>
+                    <div className="card">
+                        <img className='card-img-top' src={this.props.imgPath}></img>
+                        <div className="card-body">
+                            <h5 className='card-title'>{this.props.projectName}</h5>
+                            <a className="float-left" href={this.props.herokuLink}>
+                                <i style={iconStyle} className="fas fa-external-link-alt"></i>
+                            </a>
+                            <a className="float-right" href={this.props.githubLink}>
+                                <i style={iconStyle} className="fab fa-github"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
