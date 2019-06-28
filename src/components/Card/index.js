@@ -9,9 +9,9 @@ class Card extends Component {
         }
     
         return(
-            <div class='row'>
+           
                 <div className='col-sm-6'>
-                    <div className="card">
+                    <div className="m-2 card">
                         <img className='card-img-top' src={this.props.imgPath}></img>
                         <div className="card-body">
                             <h5 className='card-title'>{this.props.projectName}</h5>
@@ -24,7 +24,6 @@ class Card extends Component {
                         </div>
                     </div>
                 </div>
-           </div> 
         )
     }
 }
