@@ -12,7 +12,7 @@ class Projects extends Component{
                 <div className="row">
                     <Card projectName="commUnity" herokuLink="https://community-chicago.herokuapp.com/" githubLink="https://github.com/Cuauhtemoc/commUnity" imgPath={communityImg}/>
                     <Card projectName="Who's Bringing the Dip" herokuLink="http://thedip.herokuapp.com/" githubLink="https://github.com/Cuauhtemoc/The-dip" imgPath={theDipImg}/>
-                    <Card projectName ="React Game" herokulink="https://cuauhtemoc.github.io/clicky-game/" githubLink="https://github.com/Cuauhtemoc/clicky-game" imgPath={reactGameImg}/>
+                    <Card projectName ="React Game" herokuLink="https://cuauhtemoc.github.io/clicky-game/" githubLink="https://github.com/Cuauhtemoc/clicky-game" imgPath={reactGameImg}/>
                 </div>
             </div>
         )
