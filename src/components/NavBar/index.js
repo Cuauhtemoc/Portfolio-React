@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { withRouter } from "react-router-dom";
 import { NavLink } from "react-router-dom";
+import Resume from './Cuauhtemoc Rodriguez-Resume.pdf'
 
 
 class NavBar extends Component{
@@ -20,9 +21,9 @@ class NavBar extends Component{
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to="/Resume" className="nav-link" activeClassName="active">
+                  <a href={Resume} target="_blank" className="nav-link" activeClassName="active">
                     Resume
-                  </NavLink>
+                  </a>
                 </li>
               </ul>
             </div>
