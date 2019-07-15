@@ -10,11 +10,11 @@ class NavBar extends Component{
             <nav className="navbar navbar-expand navbar-light">
             <div class="container">
               <ul className="navbar-nav mx-auto">
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <NavLink exact to="/About" className="nav-link">
                     <a>About</a>
-                  </NavLink>
-                </li>
+                  </NavLink> */}
+                {/* </li> */}
                 <li className="nav-item">
                   <NavLink to="/Portfolio" className="nav-link" activeClassName="active">
                     Portfolio
