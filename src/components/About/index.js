@@ -17,7 +17,7 @@ class About extends Component {
                         <h4> Full Stack Web Developer</h4>
                     </div>
                     <div className='row'>
-                        <p style={{fontSize: '22px'}}className="col-7">Full Stack Web Developer with a passion for teaching and learning.  I have spent the last 9 years in public education.  Now I am taking my passion for collaboration and learning into the world of web development where I can continue to be challenged and learn from those around me. 
+                        <p style={{fontSize: '16px'}}className="col-7">Full Stack Web Developer with a passion for teaching and learning.  I have spent the last 9 years in public education.  Now I am taking my passion for collaboration and learning into the world of web development where I can continue to be challenged and learn from those around me. 
                             <p className='mt-2'>Skills
                                 <ul>
                                     <li>
@@ -51,7 +51,7 @@ class About extends Component {
                         <img src={selfImage} style={{height:"500px"}}className=" col-5 rounded-circle mx-auto img-thumbnail"></img>
                     </div>
                     <div className='row'>
-                        <a href={Resume} target="_blank" style={{fontSize:"22px"}}className='text-white btn btn-dark'>Resume</a>
+                        <a href={Resume} target="_blank" style={{fontSize:"16px"}}className='text-white btn btn-dark'>Resume</a>
                     </div>
                 </div>
             </div>
