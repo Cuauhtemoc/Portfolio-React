@@ -7,24 +7,24 @@ import Resume from './Cuauhtemoc Rodriguez-Resume.pdf'
 class NavBar extends Component{
     render(){
         return(
-            <nav className="navbar navbar-expand navbar-light">
+            <nav className="navbar bg-light fixed-top navbar-expand">
             <div class="container">
-              <ul className="navbar-nav mx-auto">
-                {/* <li className="nav-item">
-                  <NavLink exact to="/About" className="nav-link">
-                    <a>About</a>
-                  </NavLink> */}
-                {/* </li> */}
+              <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                  <NavLink to="/Portfolio" className="nav-link" activeClassName="active">
+                  <NavLink exact to="/About" className="text-dark nav-link">
+                    <a>About</a>
+                  </NavLink> 
+                </li>
+                <li className="nav-item">
+                  <NavLink to="/Portfolio" className="text-dark nav-link" activeClassName="active">
                     Portfolio
                   </NavLink>
                 </li>
-                <li className="nav-item">
-                  <a href={Resume} target="_blank" className="nav-link" activeClassName="active">
+                {/* <li className="nav-item">
+                  <a href={Resume} target="_blank" className="text-dark nav-link" activeClassName="active">
                     Resume
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </nav>
