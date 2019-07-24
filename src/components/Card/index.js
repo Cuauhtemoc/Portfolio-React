@@ -10,11 +10,12 @@ class Card extends Component {
     
         return(
            
-                <div className='col-sm-6'>
+                <div className='col-sm-4'>
                     <div className="m-2 card">
                         <img className='card-img-top' src={this.props.imgPath}></img>
                         <div className="card-body">
                             <h5 className='card-title'>{this.props.projectName}</h5>
+                            <p className="card-text"> {this.props.projectDescription}</p>
                             <a className="float-left" href={this.props.herokuLink}>
                                 <i style={iconStyle} className="fas fa-external-link-alt"></i>
                             </a>
