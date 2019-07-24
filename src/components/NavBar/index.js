@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import { withRouter } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-import Resume from './Cuauhtemoc Rodriguez-Resume.pdf'
 
 
 class NavBar extends Component{
