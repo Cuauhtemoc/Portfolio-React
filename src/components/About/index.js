@@ -48,7 +48,7 @@ class About extends Component {
                                 </ul>
                             </p>
                         </p>
-                        <img src={selfImage} style={{height:"500px"}}className=" col-5 rounded-circle mx-auto img-thumbnail"></img>
+                        <img src={selfImage} className="col-5 rounded-circle img-thumbnail"></img>
                     </div>
                     <div className='row'>
                         <a href={Resume} target="_blank" style={{fontSize:"16px"}}className='text-white btn btn-dark'>Resume</a>
