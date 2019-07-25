@@ -10,7 +10,7 @@ import bamazonImage from './bamazonExample.png';
 class Projects extends Component{
     render(){
         return(
-            <div className='container text-center'>
+            <div id ="portfolio" className='container text-center'>
                 <h1 className="text-center">Projects</h1>
                 <div className="row">
                     <Card projectDescription="A community building app targeting refugee communities within Chicago and connecting them with local families to help facilitate a smoother transition." projectName="commUnity" herokuLink="https://community-chicago.herokuapp.com/" githubLink="https://github.com/Cuauhtemoc/commUnity" imgPath={communityImg}/>

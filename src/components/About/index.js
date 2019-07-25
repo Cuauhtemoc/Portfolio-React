@@ -10,7 +10,7 @@ class About extends Component {
             padding: '10px'
         }
         return(
-            <div style={backgroundSyle}>
+            <div id="about" style={backgroundSyle}>
                 <div className="col-11 container">
                     <div classname="row">
                         <h1>About Me</h1>

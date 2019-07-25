@@ -17,7 +17,7 @@ class Intro extends Component{
             textShadow: `-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000`
         }
         return(
-            <div style= {backgroundStyle}>
+            <div id="contact" style= {backgroundStyle}>
                 <div className='container'>
                     <div className='text-white text-center' style={fontStyle}>
                         {/* <img src={img} className='img-thumbnail rounded-circle mx-auto d-block' /> */}

@@ -1,20 +1,24 @@
 import React, {Component} from 'react';
 import { withRouter } from "react-router-dom";
-import { NavLink } from "react-router-dom";
-
+import { NavHashLink as NavLink } from 'react-router-hash-link';
 class NavBar extends Component{
     render(){
         return(
             <nav className="navbar bg-light fixed-top navbar-expand">
             <div class="container">
               <ul className="navbar-nav ml-auto">
+              <li className="nav-item">
+                  <NavLink smooth to="#contact" className="text-dark nav-link" activeClassName="active">
+                    Contact
+                  </NavLink>
+                </li>
                 <li className="nav-item">
-                  <NavLink exact to="/About" className="text-dark nav-link">
+                  <NavLink exact smooth to="#about" className="text-dark nav-link">
                     <a>About</a>
                   </NavLink> 
                 </li>
                 <li className="nav-item">
-                  <NavLink to="/Portfolio" className="text-dark nav-link" activeClassName="active">
+                  <NavLink smooth to="#portfolio" className="text-dark nav-link" activeClassName="active">
                     Portfolio
                   </NavLink>
                 </li>
