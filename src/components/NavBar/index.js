@@ -18,8 +18,8 @@ class NavBar extends Component{
                   </NavLink> 
                 </li>
                 <li className="nav-item">
-                  <NavLink smooth to="#portfolio" className="text-dark nav-link" activeClassName="active">
-                    Portfolio
+                  <NavLink smooth to="#projects" className="text-dark nav-link" activeClassName="active">
+                    Projects
                   </NavLink>
                 </li>
                 {/* <li className="nav-item">

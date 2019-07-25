@@ -47,12 +47,14 @@ class About extends Component {
                                     </li>
                                 </ul>
                             </p>
+                            <div className='row'>
+                                <a href={Resume} target="_blank" style={{fontSize:"16px"}}className='mt-3 text-white btn btn-dark'>Resume</a>
+                            </div>
                         </p>
                         <img src={selfImage} className="col-5 rounded-circle img-thumbnail"></img>
+                     
                     </div>
-                    <div className='row'>
-                        <a href={Resume} target="_blank" style={{fontSize:"16px"}}className='text-white btn btn-dark'>Resume</a>
-                    </div>
+                  
                 </div>
             </div>
         )
